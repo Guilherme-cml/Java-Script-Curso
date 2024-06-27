@@ -1,5 +1,3 @@
-// validar cpf com classes
-
 class ValidaCpf{
     constructor(cpfEnviado){
         Object.defineProperty(this, 'cpfLimpo', {
@@ -42,15 +40,4 @@ class ValidaCpf{
         return this.novoCpf === this.cpfLimpo;
 
     }
-}
-
-
-const cpf = new ValidaCpf('070.987.720-03');
-
-
-
-if (cpf.valida()){
-    console.log('Cpf VALIDO')
-} else {
-    console.log('cpf INVALIDO')
 }
