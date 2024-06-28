@@ -30,4 +30,4 @@ for (let pessoa of json) {
 }
 const resultado = document.querySelector('.resultado')
   resultado.appendChild(table)
-} 
+}  
